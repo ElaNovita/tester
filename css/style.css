@@ -6,6 +6,10 @@ nav {
 	transition: all 0.3s ease-in-out;
 }
 
+.navbar-fixed {
+	z-index: 10000;
+}
+
 .custom-nav {
 	position: fixed;
 	z-index: 999;
@@ -22,7 +26,7 @@ nav {
 }
 .slider {
 	height: 100vh;
-	top: -74px;
+	top: -80px;
 }
 .slider .indicators {
 	z-index: 9999;
@@ -30,7 +34,12 @@ nav {
 }
 
 .section-title {
-	color: #F34235;
+	/*color: #F34235;*/
+	color: #444;
+	font-weight: 600;
+	line-height: 1.5;
+	margin: 0 0 30px;
+	font-family: 'Roboto', sans-serif !important;
 }
 .logo {
 	width: 100px;
@@ -92,13 +101,14 @@ nav {
     text-align: center;
 }
 
-.speaker-title span {
+.speaker-title p {
 	font-style: normal;
 	color: #999;
 	text-transform: uppercase;
 	font-size: 14px;
 	letter-spacing: 1px;
 	margin-top: 2px;
+	text-align: center;
 }
 
 .slider img {
@@ -110,8 +120,14 @@ nav {
 	background-size: cover;
 }
 
-.section p {
+.content {
 	line-height: 1.8;
 	font-size: 20px;
 	font-weight: 300;
+	color: #555;
+	text-align: center;
+}
+
+#about {
+	height: 500px;
 }
