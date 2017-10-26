@@ -34,13 +34,21 @@ nav {
 }
 
 .section-title {
-	/*color: #F34235;*/
 	color: #444;
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px;
 	font-family: 'Roboto', sans-serif !important;
 }
+
+.subtitle {
+	color: #F34235;
+	font-weight: 300;
+	line-height: 1.5;
+	margin: 0 0 30px;
+	font-family: 'Roboto', sans-serif !important;
+}
+
 .logo {
 	width: 100px;
 	height: 50px;
@@ -130,4 +138,8 @@ nav {
 
 #about {
 	padding-bottom: 100px;
+}
+
+.fork-me-wrapper {
+	z-index: 999999 !important;
 }
